@@ -1,0 +1,6 @@
+24/03/2020 09:06:59 devpinoyLogger Starting the Michael Page Regression suite
+24/03/2020 09:06:59 devpinoyLogger Started Execution..
+24/03/2020 09:07:06 devpinoyLogger Chrome Running
+24/03/2020 09:07:37 devpinoyLogger Cannot find element: Expected condition failed: waiting for invisibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Browse by industry')]' (tried for 30 second(s) with 10000 milliseconds interval)
+24/03/2020 09:07:43 devpinoyLogger Launched Application
+24/03/2020 09:07:43 devpinoyLogger Completed Execution..

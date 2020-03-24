@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Michaelpage Regression Test Suite" verbose="2"> <!-- parallel="tests" thread-count="2"> -->
+
+	<listeners>
+
+		<listener
+			class-name="com.michaelpage.common.Listners.TestsListenerAdapter">
+		</listener>
+		<listener
+			class-name="com.michaelpage.common.Listners.NGTestListner">
+		</listener>
+
+	</listeners>
+
+	<test name="michaelpage D8 Regression Test">
+
+		<classes>
+			<class name="com.michaelpage.testrunner.Michaelpagerunner" />
+		</classes>
+		
+	</test>
+</suite>

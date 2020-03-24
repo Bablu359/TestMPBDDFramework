@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Running]]>
+    </line>
+    <line>
+      <![CDATA[Launched Application]]>
+    </line>
+  </reporter-output>
+  <suite name="Michaelpage Regression Test Suite" duration-ms="44419" started-at="2020-03-24T03:36:59Z" finished-at="2020-03-24T03:37:43Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="Michaelpagerunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.michaelpage.testrunner.Michaelpagerunner@43814d18]" name="feature" class="com.michaelpage.testrunner.Michaelpagerunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="michaelpage D8 Regression Test" duration-ms="44419" started-at="2020-03-24T03:36:59Z" finished-at="2020-03-24T03:37:43Z">
+      <class name="com.michaelpage.testrunner.Michaelpagerunner">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.michaelpage.testrunner.Michaelpagerunner@43814d18]" name="initialize" is-config="true" duration-ms="140" started-at="2020-03-24T09:06:59Z" finished-at="2020-03-24T09:06:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.michaelpage.testrunner.Michaelpagerunner@43814d18]" name="testSetUp" is-config="true" duration-ms="156" started-at="2020-03-24T09:06:59Z" finished-at="2020-03-24T09:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="classSetUp()[pri:0, instance:com.michaelpage.testrunner.Michaelpagerunner@43814d18]" name="classSetUp" is-config="true" duration-ms="409" started-at="2020-03-24T09:07:00Z" finished-at="2020-03-24T09:07:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classSetUp -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.michaelpage.testrunner.Michaelpagerunner@43814d18]" name="feature" duration-ms="43111" started-at="2020-03-24T09:07:00Z" description="Run Feature" data-provider="features" finished-at="2020-03-24T09:07:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Verify CV is uploaded successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Running]]>
+            </line>
+            <line>
+              <![CDATA[Launched Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="classTearDown()[pri:0, instance:com.michaelpage.testrunner.Michaelpagerunner@43814d18]" name="classTearDown" is-config="true" duration-ms="9" started-at="2020-03-24T09:07:43Z" finished-at="2020-03-24T09:07:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classTearDown -->
+        <test-method status="PASS" signature="closeAll()[pri:0, instance:com.michaelpage.testrunner.Michaelpagerunner@43814d18]" name="closeAll" is-config="true" duration-ms="5843" started-at="2020-03-24T09:07:46Z" finished-at="2020-03-24T09:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAll -->
+      </class> <!-- com.michaelpage.testrunner.Michaelpagerunner -->
+    </test> <!-- michaelpage D8 Regression Test -->
+  </suite> <!-- Michaelpage Regression Test Suite -->
+</testng-results>
